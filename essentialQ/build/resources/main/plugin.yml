@@ -1,0 +1,23 @@
+name: essentialQ
+version: '1.0-SNAPSHOT'
+main: com.xiaoqiannb.essentialq
+api-version: '1.21'
+commands:
+  sethome:
+    description: 设置自己的家位置
+    usage: /<command>
+  home:
+    description: 回到家
+    usage: /<command>
+  tpa:
+    description: 请求传送到另一个玩家
+    usage: /<command> <玩家名>
+  tpaccept:
+    description: 接受传送请求
+    usage: /<command>
+  hub:
+    description: 传送到世界重生点
+    usage: /<command>
+  back:
+    description: 返回到上一次的位置
+    usage: /<command>
